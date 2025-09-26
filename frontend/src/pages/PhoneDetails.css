@@ -1,0 +1,137 @@
+.phone-details {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.phone-details img.phone-img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.review {
+    margin-bottom: 1.5rem;
+}
+
+.review.hidden {
+    color: grey;
+    font-style: italic;
+}
+
+.review button {
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff4d4f;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.close-button:hover {
+    background-color: #d9363e;
+}
+
+.wishlist-button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.wishlist-button.added {
+  background-color: #e53935;
+}
+
+/* ===== Leave a Review Section ===== */
+.review-form {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 500px;
+}
+
+.review-form label {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.review-form select {
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  max-width: 120px;
+}
+
+.review-form textarea {
+  resize: vertical;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  line-height: 1.4;
+  min-height: 80px;
+}
+
+.review-form button {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.review-form button:disabled {
+  background-color: #a3a3a3;
+  cursor: not-allowed;
+}
+
+.review-form button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Login warning message */
+.login-warning {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.login-warning a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-warning a:hover {
+  text-decoration: underline;
+}

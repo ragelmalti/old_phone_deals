@@ -1,0 +1,85 @@
+.container {
+    max-width: 80%;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #fafafa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.tabs {
+    display: inline-flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.button {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #3d3d3e;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #cfcfcf;
+}
+
+.active {
+    background-color: #2196f3;
+    color: white;
+}
+
+.content {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.userDetailsCard {
+    background-color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    margin: 2rem auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.topBar {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .topLeft {
+    text-align: center;
+  }
+  
+  .logoutButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .logoutButton:hover {
+    background-color: #c62828;
+  }
+  

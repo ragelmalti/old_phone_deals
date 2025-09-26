@@ -1,0 +1,72 @@
+/* Edit Profile card layout */
+.profileCard {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Form heading */
+.profileHeading {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Each field group */
+.profileGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.profileGroup label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    color: #333;
+}
+
+.profileGroup input {
+    padding: 0.55rem 0.7rem;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.message {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.successMessage {
+    color: green;
+}
+
+.errorMessage {
+    color: red;
+}
+
+
+/* Submit button */
+.updateButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+label {
+    text-align: left;
+    display: block;
+    /* Makes text-align work reliably */
+}
