@@ -1,5 +1,8 @@
 # 📱 Old Phone Deals – Full Stack App
 
+University assignment. Worked on parts of the backend (including the authentication), and frontend.
+
+---
 This is a full-stack MERN-style application for listing and managing second-hand phone deals. It consists of a **React + Vite frontend** and an **Express.js + MongoDB backend**, with Swagger documentation and secure environment setup.
 
 ---
